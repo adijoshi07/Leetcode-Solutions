@@ -10,7 +10,9 @@
 // Output: [1,3,2]
 
 // Explanation:
-
+In inorder traversal, the order of returning the node values are left,root,right. For returning this we can use vector data structure.
+ Time complexity - O(n)
+ Space complexity - O(n)
 
 
 /**
@@ -40,3 +42,4 @@ void inorderHelper(TreeNode* node, vector<int>& result) {
 }
 
 };
+
