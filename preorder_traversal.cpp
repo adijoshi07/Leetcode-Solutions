@@ -1,3 +1,9 @@
+// Explanation:
+/*In preorder traversal, the order of returning the node values are root,left,right. For returning this we can use vector data structure.
+ Time complexity - O(n)
+ Space complexity - O(n)
+*/
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,3 +30,4 @@ public:
     }
 
 };
+
