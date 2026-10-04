@@ -7,7 +7,8 @@ public:
             int div = l + (r-l)/2;
             long long sum = 0;
             for(int x : nums){
-                sum += ceil((double)x/div);
+                //sum += ceil((double)x/div);
+                sum += (x + div -1)/div;
             }
             if(sum <= threshold){
                 r = div;
